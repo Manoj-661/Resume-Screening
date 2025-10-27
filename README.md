@@ -1,28 +1,100 @@
-📄 Resume Screening Using Machine Learning
+🧾 Resume Category Classification using Machine Learning
 
-This project applies Natural Language Processing and Machine Learning techniques to classify resumes into predefined job categories. The system helps organizations automate the screening process and reduce manual effort during recruitment.
+This project automatically classifies resumes into job categories using Natural Language Processing (NLP) and Machine Learning techniques. A Streamlit web app is deployed for real-time classification from uploaded PDF/DOCX resumes.
 
-🎯 Objective
+🚀 Project Overview
 
-To develop a machine learning-based web application that:
+| Feature            | Description                                                     |
+| ------------------ | --------------------------------------------------------------- |
+| **Goal**           | Predict the job role/category from resume text                  |
+| **Dataset**        | Kaggle Resume Dataset                                           |
+| **Classes**        | 25 Job Categories (e.g., Data Science, Web Designing, HR, etc.) |
+| **Final Model**    | Support Vector Classifier (SVC)                                 |
+| **Framework Used** | Streamlit                                                       |
+| **Language**       | Python                                                          |
 
-Reads and understands the text content of resumes
+📊 Job Categories Covered
 
-Predicts the most relevant job role
+Data Science
 
-Assists HR teams in fast decision-making
+Web Designing
 
-🧩 System Workflow
+HR
 
-1️⃣ Resume text input by user
-2️⃣ Text cleaning and TF-IDF vectorization
-3️⃣ ML model predicts job category
-4️⃣ Confidence score displayed to user
+Python Developer
 
-🛠 Technologies Used
-Layer	Technology
-Programming	Python
-ML Libraries	Scikit-Learn, NumPy, Pandas
-NLP	TfidfVectorizer
-Web Framework	Flask
-Deployment	GitHub 
+DevOps Engineer
+
+Java Developer
+
+Mechanical Engineer
+
+Sales
+
+Blockchain
+
+Business Analyst
+
+Testing
+
+Health and Fitness
+
+And more… (total 25 categories ✅)
+
+🔬 Machine Learning Models Used
+Model	Accuracy
+K-Nearest Neighbors (KNN)	✅ Implemented
+SVC (Support Vector Classifier)	✅ Final / Best Performance
+Random Forest Classifier	✅ Tried
+
+✅ SVC was selected as the final model due to best performance & stability.
+
+🧠 NLP Techniques Used
+
+Text cleaning & preprocessing
+
+Tokenization
+
+Lemmatization
+
+TF-IDF vectorization
+
+Stopword removal
+
+▶️ How to Run Locally
+# Clone repository
+git clone https://github.com/your-username/resume-classifier.git
+cd resume-classifier
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Streamlit Web App
+streamlit run app.py
+
+
+📌 Web App Preview
+
+Upload a resume → Extract text → Predict job category ✅
+
+🛠️ Libraries Used
+| Library        | Purpose                       |
+| -------------- | ----------------------------- |
+| Scikit-learn   | Machine Learning              |
+| NLTK           | NLP Processing                |
+| pdfplumber     | Extract text from PDF resumes |
+| docx2txt       | Extract text from DOCX        |
+| Streamlit      | Web deployment                |
+| NumPy / Pandas | Data handling                 |
+
+
+✅ Conclusion
+
+This project demonstrates a full ML deployment pipeline:
+
+✅ Dataset Preprocessing
+✅ Multi-class Classification
+✅ Model Saving
+✅ Interactive Web Interface
+
+🚀 Successfully transforms a resume into a predicted job role — useful for HR automation & job portals!
