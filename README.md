@@ -61,17 +61,6 @@ TF-IDF vectorization
 
 Stopword removal
 
-▶️ How to Run Locally
-# Clone repository
-git clone https://github.com/your-username/resume-classifier.git
-cd resume-classifier
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Streamlit Web App
-streamlit run app.py
-
 
 📌 Web App Preview
 
