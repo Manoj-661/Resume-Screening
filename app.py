@@ -1,5 +1,3 @@
-%%writefile app.py
-
 # app.py
 # debug_app.py
 import streamlit as st
