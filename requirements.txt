@@ -1,0 +1,12 @@
+streamlit
+scikit-learn
+pdfplumber
+docx2txt
+numpy
+pandas
+nltk
+joblib
+regex
+PyPDF2
+pathlib
+matplotlib
