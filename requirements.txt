@@ -2,11 +2,9 @@ streamlit
 scikit-learn==1.6.1
 numpy
 pandas
-pdfplumber==0.11.0
-pillow==11.2.1
+pypdf
 docx2txt
 nltk
 joblib
 regex
-PyPDF2
 matplotlib
